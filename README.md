@@ -7,12 +7,12 @@ Say goodbye to clutter and hello to simplicity with this sleek, emoji-powered CL
 
 ## 🌟 Features
 
-- ✨ **Create new tasks** — Quickly add tasks to your list.
+- ✨ **Create new tasks** — Instantly add tasks to your list.
 - 🗑️ **Delete tasks** — Remove completed or unwanted tasks.
 - 📋 **Display all tasks** — View your entire to-do list in the terminal.
-- 🏷️ **Task prioritization** — Assign priorities to make important tasks stand out.
-- 🔄 **Change priority** — Easily update the priority of any task.
-- 📈 **Automatic reordering** — Tasks are automatically sorted by priority.
+- 🔢 **Task prioritization by number** — Assign a numeric priority to each task (*1 is the highest*).
+- 🔄 **Change priority** — Update the priority value of any task.
+- 📈 **Automatic reordering** — Tasks auto-sort so lower numbers (higher priority) come first.
 - 📂 **CSV export** — Instantly generate and update a CSV file with your tasks.
 
 ---
@@ -20,7 +20,7 @@ Say goodbye to clutter and hello to simplicity with this sleek, emoji-powered CL
 ## ⚡️ Usage
 
 1. **Add a Task:**  
-   `Add "Buy groceries" with priority High`
+   `Add "Buy groceries" with priority 2`
 
 2. **Delete a Task:**  
    `Delete "Buy groceries"`
@@ -29,7 +29,7 @@ Say goodbye to clutter and hello to simplicity with this sleek, emoji-powered CL
    `Show all tasks`
 
 4. **Change Priority:**  
-   `Set priority of "Finish report" to Urgent`
+   `Set priority of "Finish report" to 1`
 
 5. **Export to CSV:**  
    `Export tasks to tasks.csv`
@@ -45,8 +45,8 @@ Say goodbye to clutter and hello to simplicity with this sleek, emoji-powered CL
 
 ## 💡 How It Works
 
-- Tasks are stored with their priorities.
-- Updating a task's priority reorders the list automatically.
+- Tasks are stored with their numeric priorities (1 = highest priority).
+- Updating a task's priority automatically reorders the list.
 - CSV export keeps your tasks backed up and editable.
 
 ---
@@ -55,7 +55,7 @@ Say goodbye to clutter and hello to simplicity with this sleek, emoji-powered CL
 
 - **Simple & Fast:** No setup, just run and organize!
 - **Modern Interface:** Clean terminal output with emoji highlights.
-- **Efficient:** Priorities and reordering keep your focus where it matters.
+- **Efficient:** Numeric priorities and auto-reordering keep your focus where it matters.
 
 ---
 
